@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flowers_shop</title>
+     <!--Font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> 
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+ <body>
+    
+    <!--Header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">Phool<span>WALA</span></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="learn_more.html">About</a>
+            <a href="more.html">Products</a>
+            <a href="login.html">login</a>
+            
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+       
+        <!--Home section starts-->
+        <section class="home" id="home">
+            <div class="content">
+                <h1>Hot Flower</h1>
+                <h2>Fresh Flowers </br>For  Any Occasion</h2>
+                <p>Where flowers are our inspiration to create lasting memories.</br> Whatever the occasion, our flowers will make it special cursus a sit amet mauris.</p>
+                <a href="more.html" class="btn">Start Shopping</a>
+                
+            </div>
+        </section>
+      <!--Home section ends-->
+
+    <div class="about-us">
+        <div class="container">
+            <div class="image-container">
+                <img src="image/vase1.jpg" alt="Floral Vase">
+            </div>
+            <div class="content">
+                <h2>About Us</h2>
+                <h1>The Art Of Floral Expression</h1>
+                <p>Our Company Is Engaged In The Delivery Of Healthy And Tasty Food Around The City. Special Cooking And Delivery Technologies Allow You To Buy Fresh And Healthy Food. Experienced Chefs And Professional.</p>
+                <p>Our Company Is Engaged In The Delivery Of Healthy And Tasty Food Around The City. Special Cooking And Delivery Technologies Allow You To Buy Fresh.</p>
+                <p>Our Company Is Engaged In The Delivery Of Healthy And Tasty Food Around Special In Cooking And Delivery Technologies Allow You To Buy Fresh.</p>
+                <a href="#" class="btn">Know More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container3">
+        <br><h1>Featured Categories</h1>
+        <p class="description">At Flower Boutique we're not just passionate about flowers; we're dedicated to delivering exceptional service and experiences.</p>
+        <div class="card-container">
+            <div class="card">
+                <img src="orchids/blue-moon-melody_1.webp" alt="Orchid Flower Red stick">
+                <h2>Orchid Flower Red stick</h2>
+                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And</p>
+                <a href="#" class="details-btn">Shop More</a>
+            </div>
+            <div class="card">
+                <img src="rose/16-red-roses-arrangement-in-wooden-base_10.webp" alt="Rose Bouquet White">
+                <h2>Rose Bouquet White</h2>
+                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And</p>
+                <a href="#" class="details-btn">Shop More</a>
+            </div>
+            <div class="card">
+                <img src="hydrangea/10-blue-hydrangea-bouquet1.webp" alt="Jack in the Pulpit">
+                <h2>Hydrangea Flower</h2>
+                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And</p>
+                <a href="#" class="details-btn">Shop More</a>
+            </div>
+            <div class="card">
+                <img src="carnaions/cherished-carnation-arrangement_2.webp" alt="Rose Bouquet White">
+                <h2>Carnaions Flower</h2>
+                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And</p>
+                <a href="#" class="details-btn">Shop More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="collection">
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Over 10,000<br> Available Varieties</h1>
+        <div class="images">
+            <img src="image/daffodils-Photoroom.png" alt="Yellow Flower" class="im1">
+            <img src="image/tulip10-Photoroom.png" alt="Pink Tulips" class="im2">
+            <img src="image/f-Photoroom.png" alt="Mixed Flowers" class="im3">
+        </div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An endless variety of flowers & foliage.</p>
+        <p>Choose an assortment for your event, or pick a single stem and witness the beauty of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a venue or dinner table come alive.</p>
+        <a href="#" class="button">Browse Our Collection</a>
+    </div>
+
+
+    <div class="slideshow">
+        <h1 class="heading">Customer's Review</h1>
+      <div class="show" >
+        <img class="mySlides" src="image/1.png" style="width:100%">
+        <img class="mySlides" src="image/2.png" style="width:100%">
+        <img class="mySlides" src="image/3.png" style="width:100%">
+        <img class="mySlides" src="image/4.png" style="width:100%">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+
+
+      
+      </script>
+    </div>
+
+
+    <section class="deal-of-the-day">
+        <div class="cont">
+         <div class="head">
+             <h1>Deal Of The Day</h1>
+             <p>Don’t miss today’s Deal of the Day! Huge discounts on top-selling tech, fashion, and home essentials. Shop now and save big—these deals won't last long!</p>
+         </div>
+         <div class="countdown-timer">
+             <div class="time-box">
+                    <span>151</span>
+                    <small>Days</small>
+             </div>
+             <div class="time-box">
+                    <span>23</span>
+                    <small>Hours</small>
+             </div>
+             <div class="time-box">
+                    <span>59</span>
+                    <small>Mins</small>
+             </div>
+             <div class="time-box">
+                    <span>15</span>
+                    <small>Second</small>
+             </div>
+         </div>
+        </div>
+
+      <div class="product-cards">
+         <div class="cards">
+            <img src="rose/rose3.avif" alt="Rose Bouquet">
+            <div class="cards-content">
+                    <h2>Rose Bouquet</h2>
+                    <p>Their stems are usually prickly and their glossy, green leaves have toothed edges.</p>
+                <div class="price">
+                        <span class="discounted-price">$80.00</span>
+                        <span class="original-price">$100.00</span>
+                </div>
+            </div>    
+         </div>
+
+         <div class="cards">
+            <img src="image/tulip.png" alt="Rose Bouquet">
+            <div class="cards-content">
+                    <h2>Tulip Bouquet</h2>
+                    <p>Their stems are usually prickly and their glossy, green leaves have toothed edges.</p>
+                <div class="price">
+                        <span class="discounted-price">$80.00</span>
+                        <span class="original-price">$100.00</span>
+                </div>
+            </div>    
+         </div>
+
+         <div class="cards">
+            <img src="image/daisy.jpg" alt="Rose Bouquet">
+            <div class="cards-content">
+                    <h2>Daisy Bouquet</h2>
+                    <p>Their stems are usually prickly and their glossy, green leaves have toothed edges.</p>
+                <div class="price">
+                        <span class="discounted-price">$80.00</span>
+                        <span class="original-price">$100.00</span>
+                </div>
+            </div>    
+         </div>
+     </div>
+            
+    </section>
+
+    <section class="homeshop">
+        <div class="more">
+            <h1>Get The Latest Deals</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$30 coupon for first shopping</p>
+            <input type="email" placeholder="Enter your email here...">
+            <button>Subscribe</button>
+            
+        </div>
+    </section>
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="learn_more.html">about</a>
+            <a href="shop.html">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my favorites</a>
+        </div>
+        <div class="box">
+            <h3>Locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">France</a>
+            <a href="#">Japan</a>
+            <a href="#">Ukraine</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">Bhamani123@gmail.com</a>
+            <a href="#">Abhilasha char rasta,390024</a>
+          <img src="Image/payment.png" alt="">
+       
+        </div>
+    </div>
+    <div class="credit">
+        &copy; Created by <span> Jinku </span> All Right Reserved.
+    </div>
+</section>
+
+<!--footer section ends-->
+<script src="https://unpkg.com/scrollreveal"></script>
+      <script src="script.js"></script>
+
+ </body>
+</html>
