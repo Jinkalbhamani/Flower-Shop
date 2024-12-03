@@ -4,8 +4,8 @@ Welcome to FlowerShop, the online platform for all your floral needs. Whether yo
 
 **🌹 Key Features**
 
-Wide Variety of Flowers: Choose from roses, lilies, tulips, and more.
-Special Occasions: Find arrangements tailored for weddings, anniversaries, sympathy, and celebrations.
-Custom Bouquets: Personalize your bouquet with our easy-to-use builder.
-Delivery Scheduling: Flexible delivery options to suit your needs.
-User-Friendly Interface: Intuitive design for a smooth shopping experience.
+**Wide Variety of Flowers:** Choose from roses, lilies, tulips, and more.
+**Special Occasions:** Find arrangements tailored for weddings, anniversaries, sympathy, and celebrations.
+**Custom Bouquets:** Personalize your bouquet with our easy-to-use builder.
+**Delivery Scheduling**: Flexible delivery options to suit your needs.
+**User-Friendly Interface:** Intuitive design for a smooth shopping experience.
